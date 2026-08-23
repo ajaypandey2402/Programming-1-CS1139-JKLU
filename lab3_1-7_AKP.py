@@ -1,5 +1,10 @@
 '''
-#1
+#1 
+#Write a program that prompts the user to enter the centre of a circle (x1, y1), its radius r, and a
+#second point (x2, y2), and displays whether the second point lies inside, on the boundary of, or
+#outside the circle. The formula for computing the distance between two points is
+#distance = √[(x2 – x1)^2 + (y2 – y1)^2]
+
 x1 = int(input('Enter X1: '))
 y1 = int(input('Enter Y1: '))
 r = int(input('Enter radius r: '))
@@ -14,13 +19,21 @@ else:
     print('inside the circle')
 '''
 '''
-#2
+#2 
+#Write a program that prompts the user to enter the side of a regular pentagon and displays its area.
+#The formula for computing the area of a pentagon is Area = (5 * s^2) / (4 * tan(π / 5)), where s is the
+#length of a side.
+
 s = int(input('Enter the side of a regular pentagon: '))
 area = (5*s**2)/(4*0.7265)
 print('The area is:', round(area, 2))
 '''
 '''
 #3
+#Take 3 angles as input, and find whether they can form the angles of a triangle or not. If they can,
+#further classify the triangle as acute-angled, right-angled or obtuse-angled. Consider invalid cases
+#also.
+
 a = int(input('Input the 1st angle: '))
 b = int(input('Input the 2nd angle: '))
 c = int(input('Input the 3rd angle: '))
@@ -36,6 +49,9 @@ else:
 '''
 '''
 #4
+#Take a 4 digit number as input and find the sum of its first two digits and the sum of its last two
+#digits separately. Also, check if the two sums are equal or not.
+
 n = int(input('Enter a 4-digit number: '))
 d1 = n//1000
 d2 = (n//100)%10
@@ -50,6 +66,10 @@ else:
 '''    
 '''
 #5
+#Take a 5 digit number as input and print the largest digit of the number. Do not use any in-built
+#functions and do not use loops. Also print the position of that digit counted from the left. If the
+#largest digit occurs more than once, print the position of its first occurrence.
+
 n = int(input('Enter a 5-digit number: '))
 d1 = n//10000
 d2 = (n//1000)%10
@@ -69,6 +89,10 @@ else:
 '''
 '''
 #6
+#Rotate the values of three integer variables cyclically, so that the value of a moves to b, the value of
+#b moves to c, and the value of c moves to a, without using a fourth variable or multiple
+#assignment operation.
+
 a = int(input('Enter the 1st variable: '))
 b = int(input('Enter the 2nd variable: '))
 c = int(input('Enter the 3rd variable: '))
@@ -79,6 +103,10 @@ print(a, b, c)
 '''
 '''
 #7
+#Take a 3 digit number as input. Check if it is a Harshad number or not, i.e. whether the number is
+#exactly divisible by the sum of its digits. E.g. 1 + 5 + 3 = 9 and 153 / 9 = 17, so 153 is a Harshad
+#number.
+
 n = int(input('Enter a 3-digit number: '))
 d1 = n//100
 d2 = (n//10)%10
