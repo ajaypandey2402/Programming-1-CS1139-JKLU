@@ -13,4 +13,4 @@ N - the Coding Hours number (from the beginning of the semester)
 X-Z - task numbers (X through Z) for this Coding Hours assignment.
 AKP - my initials
 
-There are 2 hours of Programming laboratory and 2 hours of Coding Hours per week
+There are 2 hours of Programming Laboratory and 2 hours of Coding Hours per week
