@@ -26,8 +26,8 @@ else:
 #Enter the coefficients of two straight lines a1x + b1y = c1 and a2x + b2y = c2 and display their point
 #of intersection. Handle all the cases for invalid input as well as the cases where the two lines are
 #parallel or coincident, and display the solution till exactly 2 decimal places.
-#coefficients = input('Enter coefficients a1, b1, c1, a2, b2, c2: ').split()
 
+coefficients = input('Enter coefficients a1, b1, c1, a2, b2, c2: ').split()
 a1 = int(coefficients[0])
 b1 = int(coefficients[1])
 c1 = int(coefficients[2])
