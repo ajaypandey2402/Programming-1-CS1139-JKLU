@@ -7,8 +7,8 @@ N - the laboratory assignment number (from the beginning of the semester)
 X-Z - task numbers (X through Z) for this laboratory assignment.
 AKP - my initials
 
-The file name "CHN_X-Z_AKP" means:
-CH - Coding Hours class
+The file name "chN_X-Z_AKP" means:
+ch - Coding Hours class
 N - the Coding Hours number (from the beginning of the semester)
 X-Z - task numbers (X through Z) for this Coding Hours assignment.
 AKP - my initials
