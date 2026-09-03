@@ -1,5 +1,9 @@
 '''
 #1
+#Take 2 numbers as input (X and Y) and a third number N. 
+#Display all the numbers between X and Y
+#(X < i <= Y) that are divisible by N.
+
 x = int(input('Input the first number X: '))
 y = int(input('Input the seconf number Y: '))
 n = int(input('Input the third number N: '))
@@ -9,6 +13,9 @@ for i in range(x+1, y+1):
 '''
 '''
 #2
+#Take a positive integer as input and display the sum of its digits. 
+#The number can be of any length.
+
 n = int(input('Input a positive integer: '))
 sum =  0
 while n > 0:
@@ -18,6 +25,10 @@ print('The sum of its digits is', sum)
 '''
 '''
 #3
+#Take a positive integer N as input followed by repeatedly taking numbers from the user till the time 
+#user entered -999. At the end display the count of input numbers that are divisible by N and the 
+#count of input numbers that are not divisible by N.
+
 n = int(input('Input a positive integer N: '))
 r = int(input('Input an integer (to stop - input "-999"): '))
 count1 = 0
@@ -33,6 +44,9 @@ print('The count of input integers, that are not divisable by N, is:', count2)
 '''
 '''
 #4
+#Take a positive integer N as input and find its Factorial using a while loop. 
+#Handle invalid cases as well.
+
 n = int(input('Input a positive integer: '))
 f = 1
 if n >= 1:
@@ -45,6 +59,9 @@ else:
 '''
 '''
 #5
+#Take a positive integer as input. It may be of any length. 
+#Check if it is palindrome or not. Do not use any inbuilt reverse functions.
+
 a = int(input('Enter a positive integer: '))
 b = a
 c = a
@@ -63,6 +80,9 @@ else:
 '''
 '''
 #6
+#Display the first N terms of the Fibonacci sequence starting from 1. 
+#1, 1, 2, 3, 5, ….. till N terms
+
 n = int(input('Enter N: '))
 f1 = 1 
 f2 = 1
