@@ -1,16 +1,23 @@
-This repository stores Python code files that I am writing during my first-year 
-"Programming" course in the B.Tech. CSE program at JK Lakshmipat University.
+# Programming in Python — B.Tech CSE
 
-The file name "labN_X-Z_AKP" means:
-lab - laboratory class
-N - the laboratory assignment number (from the beginning of the semester)
-X-Z - task numbers (X through Z) for this laboratory assignment.
-AKP - my initials
+This repository contains Python source code developed during the first-year "Programming" course in the B.Tech Computer Science & Engineering with AI program at JK Lakshmipat University.
 
-The file name "chN_X-Z_AKP" means:
-ch - Coding Hours class
-N - the Coding Hours number (from the beginning of the semester)
-X-Z - task numbers (X through Z) for this Coding Hours assignment.
-AKP - my initials
+## Course Structure
 
-There are 2 hours of Programming Laboratory and 2 hours of Coding Hours per week
+The coursework comprises 4 hours of weekly practical sessions:
+* **Programming Laboratory:** 2 hours per week
+* **Coding Hours:** 2 hours per week
+
+## File Naming Conventions
+
+Source files follow a standardized nomenclature structure:
+
+| Prefix | Session Type | Naming Format | Description |
+| :--- | :--- | :--- | :--- |
+| `lab` | Laboratory Class | `labN_X-Z_AKP` | Lab assignment `N`, covering tasks `X` through `Z` |
+| `ch` | Coding Hours | `chN_X-Z_AKP` | Coding Hours assignment `N`, covering tasks `X` through `Z` |
+
+### Parameters
+* **N**: Assignment sequence number
+* **X-Z**: Range of task numbers included in the file
+* **AKP**: Student initials
